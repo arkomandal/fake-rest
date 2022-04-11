@@ -15,8 +15,8 @@ Fake Rest Services
     * Request Body: 
     ```json
     {
-    "movie": "Spiderman",
-    "release": "2003"
+        "movie": "Spiderman",
+        "release": "2003"
     }
     ```
 * **FINDALL** 
