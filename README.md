@@ -1,5 +1,27 @@
 # fake-rest
 Fake Rest Services
 
-Get Request: https://fake-rest.glitch.me
-Get Request: https://fake-rest.glitch.me/:release
+* **POST** 
+    * Request URL: *https://fake-rest.glitch.me*
+    * Request Body: 
+    ```json
+    {
+        "movie": "Spiderman",
+        "release": "2003"
+    }
+    ```
+* **UPDATE**
+    * Request URL: *https://fake-rest.glitch.me/:id*
+    * Request Body: 
+    ```json
+    {
+    "movie": "Spiderman",
+    "release": "2003"
+    }
+    ```
+* **FINDALL** 
+    * Request URL: *https://fake-rest.glitch.me*
+* **FINDONE** 
+    * Request URL: *https://fake-rest.glitch.me/:id*
+* **DELETE** 
+    * Request URL: *https://fake-rest.glitch.me/:id*
