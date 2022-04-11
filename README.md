@@ -2,8 +2,8 @@
 Fake Rest Services
 
 * **POST** 
-    * Request URL: *https://fake-rest.glitch.me*
-    * Request Body: 
+    * *Request URL*: https://fake-rest.glitch.me
+    * *Request Body*: 
     ```json
     {
         "movie": "Spiderman",
@@ -11,8 +11,8 @@ Fake Rest Services
     }
     ```
 * **UPDATE**
-    * Request URL: *https://fake-rest.glitch.me/:id*
-    * Request Body: 
+    * *Request URL*: https://fake-rest.glitch.me/:id
+    * *Request Body*: 
     ```json
     {
         "movie": "Spiderman",
@@ -20,8 +20,8 @@ Fake Rest Services
     }
     ```
 * **FINDALL** 
-    * Request URL: *https://fake-rest.glitch.me*
+    * *Request URL*: https://fake-rest.glitch.me
 * **FINDONE** 
-    * Request URL: *https://fake-rest.glitch.me/:id*
+    * *Request URL*: https://fake-rest.glitch.me/:id
 * **DELETE** 
-    * Request URL: *https://fake-rest.glitch.me/:id*
+    * *Request URL*: https://fake-rest.glitch.me/:id
