@@ -2,7 +2,7 @@
 Fake Rest Services
 
 * **POST** 
-    * *Request URL*: https://fake-rest.glitch.me
+    * *Request URL*: https://api.arkomandal.com/fake-rest
     * *Request Body*: 
     ```json
     {
@@ -11,7 +11,7 @@ Fake Rest Services
     }
     ```
 * **UPDATE**
-    * *Request URL*: https://fake-rest.glitch.me/:id
+    * *Request URL*: https://api.arkomandal.com/fake-rest/:id
     * *Request Body*: 
     ```json
     {
@@ -20,8 +20,8 @@ Fake Rest Services
     }
     ```
 * **FINDALL** 
-    * *Request URL*: https://fake-rest.glitch.me
+    * *Request URL*: https://api.arkomandal.com/fake-rest
 * **FINDONE** 
-    * *Request URL*: https://fake-rest.glitch.me/:id
+    * *Request URL*: https://api.arkomandal.com/fake-rest/:id
 * **DELETE** 
-    * *Request URL*: https://fake-rest.glitch.me/:id
+    * *Request URL*: https://api.arkomandal.com/fake-rest/:id

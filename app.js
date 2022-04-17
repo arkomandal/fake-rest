@@ -9,21 +9,21 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-app.post("/", (req, res) => {
+app.post("/fake-rest/", (req, res) => {
     let latestId = Math.max.apply(Math, data.map(el => el.id));
     data.push({ id: latestId + 1, ...req.body });
     res.status(201).send(data);
 });
 
-app.get("/", (req, res) => {
+app.get("/fake-rest/", (req, res) => {
     res.status(200).send(data);
 });
 
-app.get("/:id", (req, res) => {
+app.get("/fake-rest/:id", (req, res) => {
     res.status(200).send(data.filter(el => el.id == req.params.id));
 });
 
-app.put("/:id", (req, res) => {
+app.put("/fake-rest/:id", (req, res) => {
     let found = data.find(el => el.id == req.params.id);
     if (found) {
         found.movie = req.body.movie;
@@ -37,7 +37,7 @@ app.put("/:id", (req, res) => {
     }
 });
 
-app.delete("/:id", (req, res) => {
+app.delete("/fake-rest/:id", (req, res) => {
     let found = data.find(el => el.id == req.params.id);
     if (found) {
         let index = data.findIndex(el => el.id === found.id);
